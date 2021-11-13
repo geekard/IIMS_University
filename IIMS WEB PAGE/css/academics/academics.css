@@ -1,0 +1,34 @@
+.academic h1 {
+  font-size: 4.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #262680;
+}
+
+.academic .academic--content-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.academic .academic--content-container .academic__content {
+  max-width: 40rem;
+}
+
+.academic .academic--content-container h2 {
+  font-size: 2.4rem;
+  color: red;
+  color: black;
+}
+
+.academic .academic--content-container p a {
+  text-decoration: none;
+  color: #262680;
+}
+
+.academic .academic--content-container p a:hover {
+  opacity: 0.7;
+}
+/*# sourceMappingURL=academics.css.map */

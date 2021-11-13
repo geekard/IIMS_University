@@ -1,0 +1,87 @@
+.contact {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact .iims-map {
+  border-radius: 9px;
+}
+
+.form {
+  font-size: 1.4rem;
+  color: rgba(117, 100, 100, 0.712);
+}
+
+.form h1 {
+  color: black;
+  color: #262680;
+  margin-bottom: 2rem;
+}
+
+.form .form-same-style {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  width: 18rem;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.form .form-same-style input {
+  padding: 1rem 1rem;
+  padding: 1rem 4rem;
+  border: 1px solid lightgray;
+  border: 2px solid #262680;
+  border-radius: 3px;
+  font-size: 1.6rem;
+  color: #262680;
+  font-family: inherit;
+}
+
+.form .email-field input::-webkit-input-placeholder {
+  color: red;
+  color: rgba(95, 81, 81, 0.315);
+  font-family: inherit;
+  font-size: 1.4rem;
+}
+
+.form .email-field input:-ms-input-placeholder {
+  color: red;
+  color: rgba(95, 81, 81, 0.315);
+  font-family: inherit;
+  font-size: 1.4rem;
+}
+
+.form .email-field input::-ms-input-placeholder {
+  color: red;
+  color: rgba(95, 81, 81, 0.315);
+  font-family: inherit;
+  font-size: 1.4rem;
+}
+
+.form .email-field input::placeholder {
+  color: red;
+  color: rgba(95, 81, 81, 0.315);
+  font-family: inherit;
+  font-size: 1.4rem;
+}
+
+.form a {
+  display: inline-block;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+  background-color: #262680;
+  color: white;
+  padding: 1.2rem 4rem;
+  border-radius: 3px;
+}
+
+.form a:hover {
+  opacity: 0.7;
+}
+/*# sourceMappingURL=contact.css.map */

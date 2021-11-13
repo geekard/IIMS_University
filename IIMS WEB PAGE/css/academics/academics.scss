@@ -1,0 +1,34 @@
+.academic {
+    & h1 {
+        font-size: 4.2rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #262680;
+    }
+    .academic--content-container {
+        display: grid;
+        // justify-content: center;
+        // align-content: center;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        // grid-auto-flow: column;
+        .academic__content {
+            // background-color: red;
+            // border: 2px solid blue;
+            max-width: 40rem;
+        }
+        & h2 {
+            font-size: 2.4rem;
+            color: red;
+            color: black;
+        }
+        & p a {
+            text-decoration: none;
+            // color: #add8e6;
+            color: #262680;
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+    }
+}
